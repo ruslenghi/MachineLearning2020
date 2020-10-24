@@ -1,3 +1,3 @@
-## Predict Proprieties of a protein based on its shape. A Classification problem, solved with MLPRegressor. Final grade 6/6
+## Predict Proprieties of a protein based on its shape. A Classification problem, solved with MLPRegressor (final grade 6/6)
 
 We are given a train set of proteins, represented as strings of 4 letters (representing the amminoacids they are composed of). Each protein is accompained by a ground truth value 0 or 1, representing a propriety of the protein (0 = the protein is active, 1 = the protein is inactive). The aim of the project is to predict if (unseen) proteins in the test set are active or inactive. We solved the problem by mapping the proteins to arrays filled with 0s and 1s and by feeding them to a neural network with its hyperparameters calibrated by performing cross validations.
